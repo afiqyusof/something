@@ -31,12 +31,29 @@
       </div>
       <hr>
       <img src="../static/afiq.jpg" style="width: 60vmin; margin-bottom: 7vh;">
+      <div>
+        <h2>MY STORY</h2>
+      </div>
       <div v-scroll-reveal class="page-paragraph">
-        I am a budding Mechanical Engineer at the National University of Singapore.
-        I aim to learn and improve myself as much as possible in this time to be an
-        asset wherever I work in the future. I have a keen interest in product
-        development which stemmed from a design project where I had to conceptualize,
-        prototype and test a design of my own.
+        I am Afiq, a Mechanical Engineering student in my penultimate year in the National University of Singapore. I believe that engineering and
+        technology has shaped our very world and society to be what it is today and I am excited to think that I could be a part
+        of that in the near future. Moving away from the technical side of things, I have tried my hand in creating a social nonprofit
+        organization that aims to reduce recidivism rates among drug offenders in Singapore.
+      </div>
+      <div>
+        <h2>MY OBJECTIVES</h2>
+      </div>
+      <div v-scroll-reveal class="page-paragraph">
+        I am currently seeking an internship in Silicon Valley to hone my more technical skills as. I would be very interested
+        in product development roles for hardware. I would also be very open to handling software roles as well.
+        The most important takeaway that I hope to achieve from this program is the skills and knowledge that I would
+        acquire by the end of it
+      </div>
+      <div v-scroll-reveal class="page-paragraph">
+        During the course of my internship, I hope to be trusted with a variety of responsibilities and be able to work on
+        meaningful and challenging problems. I wish to contribute as much as I can in the technical as well as
+        business aspects of my company. I also want to learn and experience what it takes for start ups to scale and be successful so that I can apply
+        it to my own endeavors in the future.
       </div>
       <!-- Contact and Resume download div -->
       <div class="twoelements dark">
@@ -100,6 +117,12 @@
         I am now leading my team in starting a pilot test together with the Singapore
         Prison Service.
       </div>
+      <div v-scroll-reveal class="page-paragraph">
+        I have learned much from starting up a non-profit organisation such as this. None of my team had and prior experience
+        with such things and did not have anyone we could depend on. We had to learn and experience first-hand the difficulty
+        of what we set out to do. As Vice-President, I was tasked with pitching our idea to established organizations to see if
+        what we proposed was viable and for their approval. This allowed me to really improve my communication and management skills.
+      </div>
       <hr class="thinhr">
       <!-- Illumina -->
       <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
@@ -119,8 +142,7 @@
         </div>
       </div>
       <div v-scroll-reveal class="page-paragraph">
-        Just this summer, I joined Illumina Inc. as a product support intern to learn more
-        about creating engineering products for genome sequencing.
+        Just this summer, I joined Illumina Inc. as a product support intern.
       </div>
       <img v-scroll-reveal src="../static/illum.jpg" class="pictures-with-company">
       <div v-scroll-reveal class="imgcaption">
@@ -128,12 +150,19 @@
       </div>
       <div v-scroll-reveal class="page-paragraph">
         I worked with scientists and engineers to streamline technical information
-        for less technical staff, and monitored cases in the APAC region to recommend
+        for less technical staff, and monitored cases in the Asia Pacific (APAC) region to recommend
         improvements to workflow processes.
       </div>
       <div v-scroll-reveal class="page-paragraph">
         Towards the end of my internship, I also created a web crawling script in
         Python that updated a database that was used for product analytics too!
+      </div>
+      <div v-scroll-reveal class="page-paragraph">
+        My internship at Illumina taught me how to work independently. I had easily completed my main tasks
+        at the company and took the initiative to work on a more technical project for them. To that end, I was
+        tasked to work on a web crawling script in Python to create a database. However, as this was not in the main scope
+        of my work, I did not have much guidance and had to work independently. The skills that I needed for this project were
+        self-taught and I managed to complete this project by the time my internship ended.
       </div>
       <hr class="thinhr">
       <!-- SPF -->
@@ -169,37 +198,168 @@
         I was also given the opportunity to plan a division-wide event for more than
         500 participants.
       </div>
+      <div v-scroll-reveal class="page-paragraph">
+        I believe being in the police force has given me good problem solving skills as well
+        as conflict resolution skills. Having to attend to numerous calls - sometimes from the same people -
+        and act as a mediator would definitely hone these skills. Performing the job while maintaining an unbiased
+        and professional stance was extremely important. Thus I learned to handle people in a strictly professional manner.
+      </div>
     </div>
     <!-- Education page -->
-    <div id="education" class="page-container dark">
+    <div id="education" class="page-container">
       <div class="page-title">
         <h1>EDUCATION</h1>
       </div>
       <hr>
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <div class="twoelements">
+          <img src="../static/NUS.png" alt="illumina" class="company-logo">
+          <div class="work-description">
+            <h3 style="color: #ff8364">
+              National University of Singapore
+            </h3>
+            <h4>
+              <em>Bachelor of Engineering (Honours) in Mechanical Engineering</em>
+            </h4>
+            <p>
+              Aug 2017 - May 2021
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="page-paragraph">
         <p>
-          I am a budding Mechanical Engineer at the National University of Singapore.
-          I aim to learn and improve myself as much as possible in this time to be an
-          asset wherever I work in the future. I have a keen interest in product
-          development which stemmed from a design project where I had to conceptualize,
-          prototype and test a design of my own.
+          Cumulative Average Point (CAP): 4.26/5.00 (Second Upper Class Honours)
         </p>
+        <p>
+          Dean's List for Semester 1 Academic Year 18/19
+        </p>
+      </div>
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <div class="twoelements">
+          <div class="work-description">
+            <h2>DESIGN PROJECT</h2>
+          </div>
+          <div class="work-description">
+            <h3>
+              Royal Chemical & Tools Asia Pacific Pte Ltd
+            </h3>
+            <p>
+              Aug 2019 - Dec 2019
+            </p>
+          </div>
+        </div>
+      </div>
+      <div v-scroll-reveal class="page-paragraph">
+        Led a group of 4 in a design project for Royal Chemical & Tools Asia Pacific Pte Ltd.
+        Designed an original wheel locking mechanism for glass grinding wheels.
+        Unique feature of locking mechanism was the ease of installation and removal of wheels. Oversaw
+        every stage of the project from conceptualization, designing, prototyping, testing and fabrication
+        of final product.
+      </div>
+      <div v-scroll-reveal class="page-paragraph">
+        This design project was my first experience with product development. I also experienced project management as the leader of the team and
+        main contact point between the university and the company. I was heavily involved in using Solidworks for CADing and basic simulation.
+        I was also responsible for 3D printing prototypes and sourcing for materials and companies for fabrication.
+        While the project was by no means easy, I found that I excelled at it and had a keen interest with the project work.
+        This was also the reason why I was in charge of the many facets of the project.
       </div>
     </div>
     <!-- Skills page -->
-    <div id="skills" class="page-container" name="skills">
+    <div id="skills" class="page-container dark" name="skills">
       <div class="page-title">
         <h1>SKILLS</h1>
       </div>
       <hr>
-      <div class="page-paragraph">
-        <p>
-          I am a budding Mechanical Engineer at the National University of Singapore.
-          I aim to learn and improve myself as much as possible in this time to be an
-          asset wherever I work in the future. I have a keen interest in product
-          development which stemmed from a design project where I had to conceptualize,
-          prototype and test a design of my own.
-        </p>
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            Solidworks (CAD, Basic simulation)
+          </el-col>
+          <el-col :span="10">
+            <progress value="89" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            Ansys
+          </el-col>
+          <el-col :span="10">
+            <progress value="83" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            Arduino
+          </el-col>
+          <el-col :span="10">
+            <progress value="62" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            Java
+          </el-col>
+          <el-col :span="10">
+            <progress value="68" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            C
+          </el-col>
+          <el-col :span="10">
+            <progress value="76" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            Python
+          </el-col>
+          <el-col :span="10">
+            <progress value="89" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div v-scroll-reveal class="work-box" style="margin-bottom: 7vh">
+        <el-row>
+          <el-col :span="10">
+            Project Management
+          </el-col>
+          <el-col :span="10">
+            <progress value="59" max="100">
+              Hi
+            </progress>
+          </el-col>
+        </el-row>
       </div>
     </div>
   </div>
@@ -500,6 +660,26 @@ hr.thinhr {
 .work-box {
   width: 85vw;
   margin: auto;
+}
+
+.new-box{
+  width: 30vw;
+}
+
+progress{
+  background-color:white;
+  height: 20px;
+  width: 70%;
+}
+progress::-webkit-progress-bar{
+  background-color:white;
+  height: 20px;
+  border-radius: 5px;
+}
+progress::-webkit-progress-value{
+  background-color: olivedrab;
+  height: 20px;
+  border-radius: 5px;
 }
 
 .work-description {
